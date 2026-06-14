@@ -99,4 +99,4 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingPermissions):
         await ctx.send("You don't have permission!")
 
-bot.run(os.getenv("MTUxNTcxMDUyNDg0NTk4MTc4OA.Gz0PEe.PrDLKUDc7DL4MXIAxcHTN_0XUtl0X-123AsRl4"))
+bot.run(os.getenv("TOKEN"))
